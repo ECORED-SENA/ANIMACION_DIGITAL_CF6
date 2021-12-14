@@ -14,12 +14,12 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4(data-aos="fade-left") 
             p.mb-0 El #[i layout] es un término que no sólo se emplea en la animación y el diseño gráfico o visual, este también es conocido en diversas áreas y sectores de desarrollo; hace referencia directa a la planeación, organización o maquetación, dentro de un proyecto específico. Este concepto se acuña a nivel empresarial, industrial, tecnológico, de programación y de diseño. 
-      .col-lg-10.mb-4  
+      .col-lg-10.mb-4
         p.text-center.mb-4 Amplíe su concepto y conocimiento sobre layout, estudiando atentamente el recurso que se muestra a continuación:
 
-        ImagenInfograficaB.color-primario.mb-5
+        ImagenInfograficaB.color-primario.mb-5(data-aos="flip-up")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema2/img02.svg')
@@ -72,7 +72,7 @@
               .col-lg-10.mb-4
                 p.mb-4 Otros autores también sugieren que esta fase evita o disminuye los errores en la fase de producción de la animación, ya que el #[i Layout] entrega detalles de intención, visuales, artísticos y técnicos. 
                 img(src='@/assets/curso/tema2/img10.png')
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-right") 
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -86,9 +86,9 @@
         p.mb-4 A continuación, conozca cómo, dentro de la fase del layout, se ejecutan subetapas que deben ser contempladas por el diseñador para componer las distintas capas que tiene cada plano en la creación de las escenas en la historia animada:
         figure.mb-4
           img(src='@/assets/curso/line.svg')
-        SlyderB.mb-5(:datos="datosSlyder")
+        SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-right") 
 
-          
+    separador        
 
 </template>
 

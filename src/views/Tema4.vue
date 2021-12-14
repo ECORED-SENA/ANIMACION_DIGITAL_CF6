@@ -10,16 +10,16 @@
 
     .BG07.p-4.mb-4
       .row.justify-content-center     
-        .col-lg-8
+        .col-lg-8(data-aos="fade-right") 
           img(src='@/assets/curso/tema4/img01.png')
     
     .row.justify-content-center.mb-4    
       .col-lg-10.mb-4
         p El lenguaje ha estado presente en la historia de la humanidad y aunque, científicamente, no se ha logrado establecer una fecha exacta para datar este tipo de expresión, lo que definitivamente sí se ha conocido a lo largo de la historia es que, antes de desarrollarse un lenguaje verbal, la especie humana se comunicaba con el lenguaje corporal, el cual seguirá presente en la historia y del que se desprenden múltiples formas de comunicar. Las expresiones, los movimientos y la gesticulación de una persona, suelen comunicar muchas cosas.    
       .col-lg-8.mb-4
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="fade-right") 
           p A continuación, se muestran los aspectos generales más relevantes que usted debe tener en cuenta en lo relativo a pantomima, en el marco de la animación:
-      .col-lg-10.mb-4
+      .col-lg-10.mb-4(data-aos="fade-right") 
         SlyderC.mb-5(:datos="datosSlyder")
 
     .BG06.border-radius-0.p-4.mb-4
@@ -28,9 +28,9 @@
       
       p.mb-4 Dentro de la animación, se entiende como el comportamiento principal que posee cada personaje y que está planteado desde el diseño mismo. Este, parte de las premisas emocionales y psicológicas que se hayan creado para él.
       .row.justify-content-center.mb-4    
-        .col-lg-8.BG08.p-2.mb-4
+        .col-lg-8.BG08.p-2.mb-4(data-aos="fade-right") 
           p.mb-0 En lo referente al #[i Acting], tenga presente las características que se enuncian a continuación:
-        .col-lg-10
+        .col-lg-10(data-aos="fade-right") 
           TabsA.color-acento-botones.mb-5
             .tarjeta.BG05.p-4(titulo="Características 1")
               .row.align-items-center.mb-2        
@@ -68,16 +68,16 @@
     .row.justify-content-center.mb-2        
       .col-lg-10.mb-4
         p Las expresiones del rostro también son parte del lenguaje corporal no verbal y, para muchos teóricos, este lenguaje facial complementa el corporal en general, y viceversa: Pero si ambos no entran en una armonía, el uno puede restarle al otro.
-      .col-lg-10.mb-4
+      .col-lg-10.mb-4(data-aos="flip-up") 
         img(src='@/assets/curso/tema4/img11.svg')
-      .col-lg-10.mb-4
+      .col-lg-10.mb-4(data-aos="fade-right") 
         .bloque-texto-c.BG05.p-4
           i.fas.fa-quote-left
           p.text-bold Si en el proceso de animación se logra un equilibrio entre la expresividad no verbal, que se emite desde el rostro y el cuerpo, una historia no necesitaría, relativamente, diálogos para contarse.
           span - Casal, E., 2015
 
     .row.mb-5
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -90,7 +90,7 @@
                   img(src='@/assets/curso/tema4/img14.svg')
               p Las expresiones del rostro del personaje, puede afianzar relación con el espectador y generar empatía o sentimientos contrarios.  
 
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -110,7 +110,7 @@
     p.mb-4 El #[i Lipsync] es el proceso que permite a los personajes animados “hablar”; esto ocurre mediante la sincronización entre la gesticulación de los labios del personaje diseñado y una pista de audio pregrabada, creando un efecto visual en el que el espectador aprecia cómo el personaje vocaliza lo que se está conversando o dialogando.
 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right") 
         SlyderF(columnas="col-12")
           .tarjeta
             img(src='@/assets/curso/tema4/img15.svg')
@@ -140,7 +140,7 @@
             img(src='@/assets/curso/tema4/img23.svg')
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right") 
         .BG05.p-2
           p.mb-0.text-center Estas son algunas generalidades del Lipsync que se deben tener en cuenta en los procesos de animación:
 

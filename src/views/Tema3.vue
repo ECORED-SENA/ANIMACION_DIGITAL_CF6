@@ -11,7 +11,7 @@
     <br><br>
     .BG02.p-4-mb-4
       .row.justify-content-center.mb-4
-        .col-lg-3
+        .col-lg-3(data-aos="fade-down") 
           img.img-top(src='@/assets/curso/tema3/img01.svg')
         .col-lg-9
           br
@@ -20,7 +20,7 @@
 
 
     .row.justify-content-center.mb-2
-      .col-lg-8
+      .col-lg-8(data-aos="fade-donw") 
         .tarjeta.tarjeta-slide.arriba.BG04(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -34,7 +34,7 @@
                 img(src='@/assets/curso/line.svg')
  
     .row.justify-content-center.mb-2        
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right") 
         .tarjeta.tarjeta-slide.izquierda.BG05(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -47,7 +47,7 @@
                 .row.justify-content-center       
                   .col-lg-10.col-md-3.col-4
                     img(src='@/assets/curso/tema3/img02.svg')
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         .tarjeta.tarjeta-slide.derecha.BG05(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -60,7 +60,7 @@
                     img(src='@/assets/curso/tema3/img03.svg')
 
     .row.justify-content-center.mb-2       
-      .col-lg-8.mb-4
+      .col-lg-8.mb-4(data-aos="fade-up") 
         .tarjeta.tarjeta-slide.abajo.BG06(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -108,7 +108,7 @@
                     img(src='@/assets/curso/tema3/img04.svg')
 
     .row.justify-content-center.mb-2        
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right") 
         .tarjeta.tarjeta-slide.izquierda.BG05(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -121,7 +121,7 @@
                   .col-lg-10.col-md-3.col-4
                     img(src='@/assets/curso/tema3/img05.svg')
                     <br><br><br>
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         .tarjeta.tarjeta-slide.derecha.BG05(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -138,7 +138,7 @@
                     <br><br><br>
 
     .row.justify-content-center.mb-2       
-      .col-lg-8.mb-4
+      .col-lg-8.mb-4(data-aos="fade-up") 
         .tarjeta.tarjeta-slide.abajo.BG06(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -152,6 +152,7 @@
                   .col-lg-3.col-md-4.col-6
                     img(src='@/assets/curso/tema3/img07.svg')
 
+    separador
 </template>
 
 <script>

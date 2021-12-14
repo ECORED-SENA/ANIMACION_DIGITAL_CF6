@@ -184,139 +184,124 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Bordone, M. (2015). Sincronización automática de movimientos labiales para programas de animación mediante análisis de audio en español. Universidad Nacional de Córdoba.',
+      link: 'https://bit.ly/3DhzOI6',
+    },
+    {
+      referencia:
+        'Casal, E. (2015). El movimiento en un solo cuadro. Universidad Nacional de La Plata.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://chilemonos.cl/tesinas/Narrativa%20Visual%20-%20layout%20y%20composicion%20como%20un%20storytelling.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'García, G. (2016). Beyong. Concept y Producción de un cortometraje de animación. Universidad Politécnica de Valencia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://riunet.upv.es/bitstream/handle/10251/92807/GARC%c3%8dA%20-%20Beyond%3a%20Concept%20y%20Producci%c3%b3n%20de%20un%20cortometraje%20de%20animaci%c3%b3n.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Cortés, J. (2021). Proceso de la animación tradicional. Notodoanimacion.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.notodoanimacion.es/proceso-crear-animacion-tradicional-2d/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Rubio, A. (2006). La postproducción cinematográfica en la era digital: efectos expresivos y narrativos. Universidad Jaume.',
+      link: 'https://www.tdx.cat/handle/10803/10457',
     },
     {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'Zlackman',
+      link: 'https',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: '<em>>Animation</em>',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Proceso utilizado por uno o más animadores para dar la sensación de movimiento a imágenes o dibujos o a otro tipo de objetos inanimados.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: '<em>Layout</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Etapa en la cual se determina la posición de los personajes, se planifica la puesta en escena y los tiempos, así como el ángulo y la posición de la cámara, de dónde proviene la luz y cómo se proyectan las sombras.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Lenguaje corporal',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Tipo de lenguaje que solo hace uso de las expresiones del cuerpo y el rostro para comunicar',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: '<em>Lipsync</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Sincronización entre la gesticulación vocal de un personaje y la voz o diálogo que se escucha',
     },
     {
-      termino: 'Moda',
+      termino: 'Pantomima',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Tipo de lenguaje que usa poses, movimientos y gesticulaciones específicas para comunicar y transmitir, sin hacer uso de la voz',
     },
     {
-      termino: 'Diseña',
+      termino: 'Postproducción',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Etapa posterior a la producción la cual incluye edición, color, luminosidad y el contraste de los diferentes planos, efectos especiales.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Preproducción',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Etapa anterior a la producción en la cual se prepara el material: Diseño, color script, animática, <em>storyboard</em>.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Producción',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Etapa de la producción en la cual se madura la historia, se genera el plan de trabajo, diseña y establecen los cronogramas a cumplir dentro de un proceso de producción.',
     },
     {
-      termino: 'Bidimensional',
+      termino: '<em>Software</em>',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de programas, instrucciones y reglas informáticas que permiten ejecutar distintas tareas en un sistema informático.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'García, G. (2016). Beyong. Concepto y Producción de un cortometraje de animación.',
+      tipo: 'Documento',
+      link:
+        'https://riunet.upv.es/bitstream/handle/10251/92807/GARC%c3%8dA%20-%20Beyond%3a%20Concept%20y%20Producci%c3%b3n%20de%20un%20cortometraje%20de%20animaci%c3%b3n.pdf?sequence=1&isAllowed=y',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'A tiempo. (2018). Layout y animatic de corto Condorito “La Gota” (Video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ypIVsNW-PCY',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Flores, M. (2019). Narrativa Visual. Layout y composición como storytelling. Universidad Mayor.',
+      tipo: 'Documento',
+      link:
+        'https://chilemonos.cl/tesinas/Narrativa%20Visual%20-%20layout%20y%20composicion%20como%20un%20storytelling.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      texto:
+        'Rubio, A. (2006). La postproducción cinematográfica en la era digital: efectos expresivos y narrativos. Universidad Jaume.',
+      tipo: 'Documento',
+      link:
+        'https://www.tdx.cat/bitstream/handle/10803/10457/rubio.pdf;jsessionid=8EA0629E629762A25D51D99C342CDA73?sequence=1',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Casal, E. (2015). El movimiento en un solo cuadro. Universidad Nacional de La Plata.',
+      tipo: 'Ensayo',
+      link: 'https://bit.ly/2WJkGUj',
+    },
+    {
+      texto:
+        'Bordone, M. (s.f.). Sincronización automática de movimientos labiales para programas de animación mediante análisis de audio en español. Universidad Nacional del Córdoba.',
+      tipo: 'Documento',
+      link:
+        'https://rdu.unc.edu.ar/bitstream/handle/11086/2813/TF17231.pdf?isAllowed=y&sequence=1',
     },
   ],
   creditos: {

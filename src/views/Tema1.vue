@@ -9,9 +9,9 @@
       h1 Principios de la animación
     
     .row.justify-content-center.mb-4
-      .col-lg-6.col-8
+      .col-lg-6.col-8(data-aos="fade-down")
         img.img-bot(src='@/assets/curso/tema1/img01.png')
-      .col-lg-10
+      .col-lg-10(data-aos="fade-up")
         .BG02.p-4
           <br><br>
           p Los doce principios de la animación desarrollados en los años 30 desde los estudios Disney, su creación se dio gracias a la necesidad de crear un lenguaje entendible entre los animadores y técnicos y acuñados por Frank Thomas y Ollie Johnston. Estos principios se basan en aspectos relativos a las leyes de la física y su objetivo inicial es dar a los personajes una actitud más realista tanto física como emocionalmente.
@@ -154,7 +154,7 @@
                 p El Appeal se refiere a la personalidad y atractivo del personaje, fiel al significado etimológico de la palabra animación, que es dar ánima, alma y vida, el trabajo del animador es proveer al personaje la solidez y atractivo suficiente para que se cree y mantenga una conexión emocional con el espectador.  En definitiva, el principio de atractivo nos recuerda que la animación de un personaje debe definir su forma de ser, de moverse y sus estados emocionales.
             .col-5.col-lg-4
               img(src="@/assets/curso/tema1/img12.gif")
-
+    separador
 </template>
 
 <script>

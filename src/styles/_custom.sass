@@ -1,19 +1,37 @@
+@media only screen and (max-width: 1199px)
+  .banner-principal .tarjeta
+    background-size: auto
+    background-position: 0
+    background-repeat: no-repeat
+
 .banner-principal__img
+  background-image: url("../assets/curso/banner/img01.png"), url("../assets/curso/banner-princiapal.svg")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat
+  background-position: 50% center, 50% 50%
+  background-size: 85%, 90%
+  animation: Flitp 2s ease infinite  
   img
-    animation: float 6s ease-in-out infinite
-
-@keyframes float
-  0%
-    transform: translatey(0px)
+    display: none !important
+  
+@keyframes Flitp
+  16.66%
+    background-image: url("../assets/curso/banner/img01.png"), url("../assets/curso/banner-princiapal.svg")
+  33.33%
+    background-image: url("../assets/curso/banner/img02.png"), url("../assets/curso/banner-princiapal.svg")
   50%
-    transform: translatey(-20px)
-  100%
-    transform: translatey(0px)
+    background-image: url("../assets/curso/banner/img03.png"), url("../assets/curso/banner-princiapal.svg")
+    background-position: 45% center, 50% 40%
+  66.6%
+    background-image: url("../assets/curso/banner/img04.png"), url("../assets/curso/banner-princiapal.svg")
+  83.19%
+    background-image: url("../assets/curso/banner/img05.png"), url("../assets/curso/banner-princiapal.svg")
+  99%
+    background-image: url("../assets/curso/banner/img06.png"), url("../assets/curso/banner-princiapal.svg")
 
-.banner-principal__img img
-  width: 100%
-  max-width: 100%
-  margin-left: auto
+@media screen and (min-width: 1200px)
+  .banner-principal__img
+    background-size: 60%, 65%;
 
 .curso-main-container
   background-color: #e8e8e8
