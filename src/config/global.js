@@ -30,73 +30,73 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Estirar y encoger',
-            hash: 't_1_1',
+            hash: 't_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Anticipación',
-            hash: 't_1_2',
+            hash: 't_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Puesta en Escena',
-            hash: 't_1_3',
+            hash: 't_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Acción directa y pose',
-            hash: 't_1_4',
+            hash: 't_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Overlapping',
-            hash: 't_1_5',
+            hash: 't_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Easy In & Easy Out',
-            hash: 't_1_6',
+            hash: 't_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Arcos',
-            hash: 't_1_7',
+            hash: 't_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
             titulo: 'Acción secundaria',
-            hash: 't_1_8',
+            hash: 't_8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
             titulo: 'Timing',
-            hash: 't_1_9',
+            hash: 't_9',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.10',
             titulo: 'Exageración',
-            hash: 't_1_10',
+            hash: 't_10',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.11',
             titulo: 'Solidez',
-            hash: 't_1_11',
+            hash: 't_11',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.12',
             titulo: 'Appeal',
-            hash: 't_1_12',
+            hash: 't_12',
           },
         ],
       },
@@ -124,30 +124,25 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Acting',
+            titulo: '<em>Acting</em>',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '4.2',
             titulo: 'Expresiones faciales',
-            hash: 't_4_1',
+            hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '4.3',
             titulo: 'Lipsync  ',
-            hash: 't_4_1',
+            hash: 't_4_3',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -190,6 +185,11 @@ export default {
     {
       referencia:
         'Casal, E. (2015). El movimiento en un solo cuadro. Universidad Nacional de La Plata.',
+      link: 'https://bit.ly/2WJkGUj',
+    },
+    {
+      referencia:
+        'Flores, M. (2019). Narrativa Visual. Layout y composición como storytelling. Universidad Mayor.',
       link:
         'https://chilemonos.cl/tesinas/Narrativa%20Visual%20-%20layout%20y%20composicion%20como%20un%20storytelling.pdf',
     },
@@ -210,14 +210,10 @@ export default {
         'Rubio, A. (2006). La postproducción cinematográfica en la era digital: efectos expresivos y narrativos. Universidad Jaume.',
       link: 'https://www.tdx.cat/handle/10803/10457',
     },
-    {
-      referencia: 'Zlackman',
-      link: 'https',
-    },
   ],
   glosario: [
     {
-      termino: '<em>>Animation</em>',
+      termino: '<em>Animation</em>',
       significado:
         'Proceso utilizado por uno o más animadores para dar la sensación de movimiento a imágenes o dibujos o a otro tipo de objetos inanimados.',
     },
@@ -229,17 +225,17 @@ export default {
     {
       termino: 'Lenguaje corporal',
       significado:
-        'Tipo de lenguaje que solo hace uso de las expresiones del cuerpo y el rostro para comunicar',
+        'Tipo de lenguaje que solo hace uso de las expresiones del cuerpo y el rostro para comunicar.',
     },
     {
       termino: '<em>Lipsync</em>',
       significado:
-        'Sincronización entre la gesticulación vocal de un personaje y la voz o diálogo que se escucha',
+        'Sincronización entre la gesticulación vocal de un personaje y la voz o diálogo que se escucha.',
     },
     {
       termino: 'Pantomima',
       significado:
-        'Tipo de lenguaje que usa poses, movimientos y gesticulaciones específicas para comunicar y transmitir, sin hacer uso de la voz',
+        'Tipo de lenguaje que usa poses, movimientos y gesticulaciones específicas para comunicar y transmitir, sin hacer uso de la voz.',
     },
     {
       termino: 'Postproducción',
@@ -272,13 +268,13 @@ export default {
     },
     {
       texto:
-        'A tiempo. (2018). Layout y animatic de corto Condorito “La Gota” (Video). YouTube.',
+        'A tiempo. (2018). <em>Layout</em> y <em>animatic</em> de corto Condorito “La Gota” (Video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ypIVsNW-PCY',
     },
     {
       texto:
-        'Flores, M. (2019). Narrativa Visual. Layout y composición como storytelling. Universidad Mayor.',
+        'Flores, M. (2019). Narrativa Visual. <em>Layout</em> y composición como <em>storytelling</em>. Universidad Mayor.',
       tipo: 'Documento',
       link:
         'https://chilemonos.cl/tesinas/Narrativa%20Visual%20-%20layout%20y%20composicion%20como%20un%20storytelling.pdf',
@@ -319,6 +315,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Mauricio Sánchez Rengifo',
+        cargo: 'Experto temático',
+        centro: 'Centro de Servicios y Gestión Empresarial Regional Antioquia',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro agropecuario La Granja Regional Tolima',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica  Distrito capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -333,41 +351,36 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

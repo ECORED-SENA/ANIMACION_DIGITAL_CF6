@@ -15,11 +15,11 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-left") 
-            p.mb-0 El #[i layout] es un término que no sólo se emplea en la animación y el diseño gráfico o visual, este también es conocido en diversas áreas y sectores de desarrollo; hace referencia directa a la planeación, organización o maquetación, dentro de un proyecto específico. Este concepto se acuña a nivel empresarial, industrial, tecnológico, de programación y de diseño. 
+            p.mb-0 El #[i layout] es un término que no solo se emplea en la animación y el diseño gráfico o visual, este también es conocido en diversas áreas y sectores de desarrollo; hace referencia directa a la planeación, organización o maquetación, dentro de un proyecto específico. Este concepto se acuña a nivel empresarial, industrial, tecnológico, de programación y de diseño. 
       .col-lg-10.mb-4
-        p.text-center.mb-4 Amplíe su concepto y conocimiento sobre layout, estudiando atentamente el recurso que se muestra a continuación:
+        p.text-center.mb-4 Amplíe su concepto y conocimiento sobre #[i layout], estudiando atentamente el recurso que se muestra a continuación:
 
-        ImagenInfograficaB.color-primario.mb-5(data-aos="flip-up")
+        ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema2/img02.svg')
@@ -29,14 +29,14 @@
               .col-lg-10.mb-4
                 .h4.text-center.mb-4
                   <div style="color:#D44F4A !important;"> Objetivo </div>
-                p.mb-4 El objetivo principal que cumple el Layout, dentro de cualquier área en la que se esté empleando, es bosquejar el uso, disposición, distribución y ubicación que debe tener cada objeto, información o elemento dentro de su esquema, espacio o proyecto en ejecución.
+                p.mb-4 El objetivo principal que cumple el #[i Layout], dentro de cualquier área en la que se esté empleando, es bosquejar el uso, disposición, distribución y ubicación que debe tener cada objeto, información o elemento dentro de su esquema, espacio o proyecto en ejecución.
                 img(src='@/assets/curso/tema2/img03.png')
           div(x="36%" y="11%" tooltip="Diseño y planificación")
             .row.justify-content-center.mb-4
               .col-lg-10.mb-4
                 .h4.text-center.mb-4
                   <div style="color:#D44F4A !important;"> Diseño y planificación </div>
-                p.mb-4 En la animación digital el Layout debe diseñar y planificar la distribución de un personaje u objeto, dentro del plano visual que se le está creando al espectador. 
+                p.mb-4 En la animación digital el #[i Layout] debe diseñar y planificar la distribución de un personaje u objeto, dentro del plano visual que se le está creando al espectador. 
                 img(src='@/assets/curso/tema2/img04.png')
           div(x="51%" y="92%" tooltip="Diseño y planificación")
             .row.justify-content-center.mb-4
@@ -75,7 +75,7 @@
       .col-lg-6.mb-4(data-aos="fade-right") 
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
+          .tarjeta-flip__contenedor.p-4
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img11.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               p Conozca la manera en que se ve un fragmento de un #[i Layout] de una escena animada, visitando el video 
@@ -83,7 +83,7 @@
                 | , el cual se encuentra en el material complementario. 
         
       .col-lg-10.mb-4
-        p.mb-4 A continuación, conozca cómo, dentro de la fase del layout, se ejecutan subetapas que deben ser contempladas por el diseñador para componer las distintas capas que tiene cada plano en la creación de las escenas en la historia animada:
+        p.mb-4 A continuación, conozca cómo, dentro de la fase del #[i layout], se ejecutan subetapas que deben ser contempladas por el diseñador para componer las distintas capas que tiene cada plano en la creación de las escenas en la historia animada:
         figure.mb-4
           img(src='@/assets/curso/line.svg')
         SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-right") 

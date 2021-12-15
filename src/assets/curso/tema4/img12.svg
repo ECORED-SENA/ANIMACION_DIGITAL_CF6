@@ -26,9 +26,11 @@
       <rect id="Rectángulo_7658" data-name="Rectángulo 7658" width="85" height="84.961" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_70291" data-name="Grupo 70291" transform="translate(-285 -3307)">
-    <g id="Grupo_69412" data-name="Grupo 69412" transform="translate(-525 802)">
-      <rect id="Rectángulo_7633" data-name="Rectángulo 7633" width="505" height="240" rx="21" transform="translate(810 2505)" fill="none"/>
+  <g id="Grupo_70308" data-name="Grupo 70308" transform="translate(-285 -3307)">
+    <g id="Grupo_70307" data-name="Grupo 70307">
+      <g id="Grupo_69412" data-name="Grupo 69412" transform="translate(-525 802)">
+        <rect id="Rectángulo_7633" data-name="Rectángulo 7633" width="505" height="240" rx="21" transform="translate(810 2505)" fill="#fefefe"/>
+      </g>
     </g>
     <g id="Grupo_69424" data-name="Grupo 69424" transform="translate(-525 802)">
       <path id="Trazado_155921" data-name="Trazado 155921" d="M0,0H402V145H216.168s-8.151,7.236-13.477,7.236c-3.819,0-13.811-7.236-13.811-7.236H0Z" transform="translate(862 2571)" fill="url(#linear-gradient)"/>

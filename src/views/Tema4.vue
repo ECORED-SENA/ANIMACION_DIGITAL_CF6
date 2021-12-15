@@ -43,7 +43,7 @@
               .row.align-items-center.mb-2        
                 .col-lg-6.mb-4.mb-lg-0
                   h4 El #[i Acting] y la pantomima
-                  p El #[i Acting] está estrechamente relacionada con la pantomima; ambos elementos van ligados al comportamiento y personalidad del personaje protagonista.
+                  p El #[i Acting] está estrechamente relacionado con la pantomima; ambos elementos van ligados al comportamiento y personalidad del personaje protagonista.
                 .col-lg-6
                   img(src='@/assets/curso/tema4/img08.png')
             .tarjeta.BG05.p-4(titulo="Características 3")
@@ -57,7 +57,7 @@
               .row.align-items-center.mb-2        
                 .col-lg-6.mb-4.mb-lg-0
                   h4 Convencimiento
-                  p El desarrollo de un buen Acting genera en el espectador el convencimiento firme de que el personaje existe y, como efecto, se deja guiar por el mismo dentro de la historia que se está compartiendo.
+                  p El desarrollo de un buen #[i Acting] genera en el espectador el convencimiento firme de que el personaje existe y, como efecto, se deja guiar por el mismo dentro de la historia que se está compartiendo.
                 .col-lg-6
                   img(src='@/assets/curso/tema4/img10.png')
 
@@ -67,7 +67,7 @@
     
     .row.justify-content-center.mb-2        
       .col-lg-10.mb-4
-        p Las expresiones del rostro también son parte del lenguaje corporal no verbal y, para muchos teóricos, este lenguaje facial complementa el corporal en general, y viceversa: Pero si ambos no entran en una armonía, el uno puede restarle al otro.
+        p Las expresiones del rostro también son parte del lenguaje corporal no verbal y, para muchos teóricos, este lenguaje facial complementa el corporal en general, y viceversa: pero si ambos no entran en una armonía, el uno puede restarle al otro.
       .col-lg-10.mb-4(data-aos="flip-up") 
         img(src='@/assets/curso/tema4/img11.svg')
       .col-lg-10.mb-4(data-aos="fade-right") 
@@ -77,26 +77,28 @@
           span - Casal, E., 2015
 
     .row.mb-5
-      .col-lg-6.mb-4(data-aos="fade-right")
+      .col-lg-6.col-md-6.mb-5(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .BG08
-                img(src='@/assets/curso/tema4/img12.svg')
+            .tarjeta-flip__img.p-0
+              .row.justify-content-center.BG08
+                .col-xl-10.col-md-12.col-8
+                  img(src='@/assets/curso/tema4/img12.svg')
             .tarjeta-flip__contenido.p-3
               .row.justify-content-center
                 .col-2
                   img(src='@/assets/curso/tema4/img14.svg')
               p Las expresiones del rostro del personaje, puede afianzar relación con el espectador y generar empatía o sentimientos contrarios.  
 
-      .col-lg-6.mb-4(data-aos="fade-left")
+      .col-lg-6.col-md-6.mb-5(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
-              .BG08
-                img(src='@/assets/curso/tema4/img13.svg')
+            .tarjeta-flip__img.p-0
+              .row.justify-content-center.BG08
+                .col-xl-10.col-md-12.col-8
+                  img(src='@/assets/curso/tema4/img13.svg')
             .tarjeta-flip__contenido.p-3
               .row.justify-content-center
                 .col-2
@@ -142,11 +144,11 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right") 
         .BG05.p-2
-          p.mb-0.text-center Estas son algunas generalidades del Lipsync que se deben tener en cuenta en los procesos de animación:
+          p.mb-0.text-center Estas son algunas generalidades del #[i Lipsync] que se deben tener en cuenta en los procesos de animación:
 
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lc1NPD2jMGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
