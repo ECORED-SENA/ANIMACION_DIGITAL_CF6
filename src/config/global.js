@@ -53,7 +53,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Overlapping',
+            titulo: '<em>Overlapping</em>',
             hash: 't_5',
           },
           {

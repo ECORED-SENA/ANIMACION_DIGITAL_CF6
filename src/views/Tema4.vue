@@ -76,14 +76,14 @@
           p.text-bold Si en el proceso de animación se logra un equilibrio entre la expresividad no verbal, que se emite desde el rostro y el cuerpo, una historia no necesitaría, relativamente, diálogos para contarse.
           span - Casal, E., 2015
 
-    .row.mb-5
-      .col-lg-6.col-md-6.mb-5(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-xxl-5.col-xl-5.col-lg-6.col-md-6.mb-5(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-0
               .row.justify-content-center.BG08
-                .col-xl-10.col-md-12.col-8
+                .col-xxl-8.col-xl-10.col-md-12.col-8
                   img(src='@/assets/curso/tema4/img12.svg')
             .tarjeta-flip__contenido.p-3
               .row.justify-content-center
@@ -91,13 +91,13 @@
                   img(src='@/assets/curso/tema4/img14.svg')
               p Las expresiones del rostro del personaje, puede afianzar relación con el espectador y generar empatía o sentimientos contrarios.  
 
-      .col-lg-6.col-md-6.mb-5(data-aos="fade-left")
+      .col-xxl-5.col-xl-5.col-lg-6.col-md-6.mb-5(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-0
               .row.justify-content-center.BG08
-                .col-xl-10.col-md-12.col-8
+                .col-xxl-8.col-xl-10.col-md-12.col-8
                   img(src='@/assets/curso/tema4/img13.svg')
             .tarjeta-flip__contenido.p-3
               .row.justify-content-center
