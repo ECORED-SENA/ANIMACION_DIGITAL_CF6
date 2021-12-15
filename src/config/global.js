@@ -59,7 +59,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Easy In & Easy Out',
+            titulo: '<em>Easy in & easy out</em>',
             hash: 't_6',
           },
           {
@@ -77,7 +77,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
-            titulo: 'Timing',
+            titulo: '<em>Timing</em>',
             hash: 't_9',
           },
           {
@@ -95,7 +95,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.12',
-            titulo: 'Appeal',
+            titulo: '<em>Appeal</em>',
             hash: 't_12',
           },
         ],
@@ -104,7 +104,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Layout: elementos principales',
+        titulo: '<em>Layout</em>: elementos principales',
         desarrolloContenidos: true,
       },
       {
@@ -136,7 +136,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Lipsync  ',
+            titulo: '<em>Lipsync</em>',
             hash: 't_4_3',
           },
         ],
@@ -189,7 +189,7 @@ export default {
     },
     {
       referencia:
-        'Flores, M. (2019). Narrativa Visual. Layout y composición como storytelling. Universidad Mayor.',
+        'Flores, M. (2019). Narrativa Visual. <em>Layout</em> y composición como <em>storytelling</em>. Universidad Mayor.',
       link:
         'https://chilemonos.cl/tesinas/Narrativa%20Visual%20-%20layout%20y%20composicion%20como%20un%20storytelling.pdf',
     },

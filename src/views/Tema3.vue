@@ -145,7 +145,7 @@
             .tarjeta-slide__contenido.p-4
               .h4
                 <div style="color:#D44F4A !important;"> ● Postproducción </div>
-              p.mb-0 Durarte esta etapa del proyecto animado o dentro de cualquier proyecto audiovisual, se hacen los detalles finales, se perfecciona el color, los reflejos, las sombras y otros aspectos relevantes de la composición. Se agregan efectos especiales necesarios para fortalecer la narración. Esta fase culmina con el renderizado del proyecto, el cual debe estar finalizado y en las condiciones que se mostrará al espectador.
+              p.mb-0 Durante esta etapa del proyecto animado o dentro de cualquier proyecto audiovisual, se hacen los detalles finales, se perfecciona el color, los reflejos, las sombras y otros aspectos relevantes de la composición. Se agregan efectos especiales necesarios para fortalecer la narración. Esta fase culmina con el renderizado del proyecto, el cual debe estar finalizado y en las condiciones que se mostrará al espectador.
             .tarjeta-slide__img
               .BG06.p-4
                 .row.justify-content-center       

@@ -38,14 +38,14 @@
                   <div style="color:#D44F4A !important;"> Diseño y planificación </div>
                 p.mb-4 En la animación digital el #[i Layout] debe diseñar y planificar la distribución de un personaje u objeto, dentro del plano visual que se le está creando al espectador. 
                 img(src='@/assets/curso/tema2/img04.png')
-          div(x="51%" y="92%" tooltip="Diseño y planificación")
+          div(x="51%" y="92%" tooltip="Punto de partida del diseñador")
             .row.justify-content-center.mb-4
               .col-lg-10.mb-4
                 .h4.text-center.mb-4
                   <div style="color:#D44F4A !important;"> Punto de partida del diseñador </div>
                 p.mb-4 El diseñador o artista #[i Layout], dentro de un proyecto audiovisual, específicamente uno animado, debe partir del guion gráfico o storyboard, para generar la distribución, técnicamente, a través de capas, que ocupa dentro del plano visual cada elemento (ya sea personaje u objeto), para desarrollar la escena.
                 img(src='@/assets/curso/tema2/img05.png')
-          div(x="66%" y="11%" tooltip="Diseño y planificación")
+          div(x="66%" y="11%" tooltip="Desarrollo de la escena")
             .row.justify-content-center.mb-4
               .col-lg-10.mb-4
                 .h4.text-center.mb-4
