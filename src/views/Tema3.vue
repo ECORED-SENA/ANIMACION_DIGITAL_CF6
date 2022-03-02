@@ -42,7 +42,7 @@
               .h4
                 <div style="color:#D44F4A !important;"> ● Preproducción </div>
               p Dentro de esta etapa de la producción, para crear un producto de animación, se condensan los primeros pasos para estructurar la historia y los componentes, características e intencionalidades que esta y sus personajes requieren, para llevarlos a una etapa de producción y posproducción.
-            .tarjeta-slide__img
+            .tarjeta-slide__img.BG05
               .BG05.p-4.p-lg-5
                 .row.justify-content-center
                   .col-lg-10.col-md-3.col-sm-6.col-4.p-1
@@ -53,7 +53,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-lg-5
               p La fase de preproducción obedece a toda la planeación y diseño previo que se requiere para iniciar la ejecución de la composición animada. En esta etapa se definen los tiempos y cronogramas de cumplimiento para desarrollar el resto de las fases, hasta obtener el producto finalizado.
-            .tarjeta-slide__img
+            .tarjeta-slide__img.BG05
               .BG05.p-4.p-lg-5
                 .row.justify-content-center
                   .col-lg-10.col-md-3.col-sm-6.col-4.p-1
@@ -101,7 +101,7 @@
                     li.mb-0
                       i.fas.fa-chevron-right
                       p.mb-0 #[i.text-bold Layout] 
-            .tarjeta-slide__img
+            .tarjeta-slide__img.BG06
               .BG06.p-4.p-lg-5
                 .row.justify-content-center       
                   .col-lg-10
@@ -112,10 +112,10 @@
         .tarjeta.tarjeta-slide.izquierda.BG05(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-lg-5
-              p.text-small.mb-4 Esta fase permite tener el trabajo organizado y planificado para pasar a desarrollo con el mínimo de errores a la siguiente fase de la producción.
-              p.text-small.mb-0 El desarrollo de estas etapas básicas de la preproducción, pueden generar para el proyecto de producción animada, la facilidad en la ejecución del mismo.
-            .tarjeta-slide__img
+            .tarjeta-slide__contenido.p-4
+              p.mb-4 Esta fase permite tener el trabajo organizado y planificado para pasar a desarrollo con el mínimo de errores a la siguiente fase de la producción.
+              p.mb-0 El desarrollo de estas etapas básicas de la preproducción, pueden generar para el proyecto de producción animada, la facilidad en la ejecución del mismo.
+            .tarjeta-slide__img.BG05
               .BG05.p-4.p-lg-5
                 .row.justify-content-center       
                   .col-lg-10.col-md-3.col-sm-6.col-4.p-1
@@ -125,12 +125,12 @@
         .tarjeta.tarjeta-slide.derecha.BG05(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-lg-5
+            .tarjeta-slide__contenido.p-4
               .h4
                 <div style="color:#D44F4A !important;"> ● Producción </div>
-              p.text-small.mb-4 Es en esta fase de la producción donde se pone en marcha la ejecución del producto que se va a entregar al espectador, es decir que este es el momento en el cual entra todo el equipo en acción en la elaboración del animado. 
-              p.text-small.mb-0 Acá, gracias a la planificación y diseño efectuado en la preproducción, se puede ejecutar y materializar, de manera visual, todo lo imaginado para la historia: los personajes y los objetos que componen las distintas secuencias que componen el producto. 
-            .tarjeta-slide__img
+              p.mb-2 Es en esta fase de la producción donde se pone en marcha la ejecución del producto que se va a entregar al espectador, es decir que este es el momento en el cual entra todo el equipo en acción en la elaboración del animado. 
+              p.mb-0 Acá, gracias a la planificación y diseño efectuado en la preproducción, se puede ejecutar y materializar, de manera visual, todo lo imaginado para la historia: los personajes y los objetos que componen las distintas secuencias que componen el producto. 
+            .tarjeta-slide__img.BG05
               .BG05.p-4.p-lg-5
                 .row.justify-content-center
                   .col-lg-10.col-md-3.col-sm-6.col-4.p-1
@@ -146,7 +146,7 @@
               .h4
                 <div style="color:#D44F4A !important;"> ● Postproducción </div>
               p.mb-0 Durante esta etapa del proyecto animado o dentro de cualquier proyecto audiovisual, se hacen los detalles finales, se perfecciona el color, los reflejos, las sombras y otros aspectos relevantes de la composición. Se agregan efectos especiales necesarios para fortalecer la narración. Esta fase culmina con el renderizado del proyecto, el cual debe estar finalizado y en las condiciones que se mostrará al espectador.
-            .tarjeta-slide__img
+            .tarjeta-slide__img.BG06
               .BG06.p-4
                 .row.justify-content-center       
                   .col-lg-3.col-8

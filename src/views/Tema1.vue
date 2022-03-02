@@ -14,7 +14,7 @@
       .col-lg-10(data-aos="fade-up")
         .BG02.p-4
           <br><br>
-          p Los doce principios de la animación desarrollados en los años 30 desde los estudios Disney, su creación se dio gracias a la necesidad de crear un lenguaje entendible entre los animadores y técnicos y acuñados por Frank Thomas y Ollie Johnston. Estos principios se basan en aspectos relativos a las leyes de la física y su objetivo inicial es dar a los personajes una actitud más realista tanto física como emocionalmente.
+          p Los doce principios de la animación desarrollados en los años 30 desde los estudios Disney, su creación se dio gracias a la necesidad de crear un lenguaje entendible entre los animadores y técnicos, acuñados por Frank Thomas y Ollie Johnston. Estos principios se basan en aspectos relativos a las leyes de la física y su objetivo inicial es dar a los personajes una actitud más realista tanto física como emocionalmente.
     
     a(@click="mostrarColaps()")
     #MapaGroup01(data-aos="zoom-in")
@@ -91,7 +91,7 @@
             .col-7.col-lg-6
               .titulo-segundo
                 #t_6.h2 1.6	#[i Easy in & easy out]
-              p Estos términos hacen referencia en su traducción a “Entradas y salidas suaves”, los cuales buscan que las animaciones sean más naturales y orgánicas y responde a la afectación de las propiedades físicas y orgánicas que afectan a todos los objetos, tales como la gravedad, la resistencia, la tensión y fricción, generando una aceleración y desaceleración progresiva.
+              p Estos términos hacen referencia en su traducción a “Entradas y salidas suaves”, los cuales buscan que las animaciones sean más naturales y orgánicas, responde a la afectación de las propiedades físicas y orgánicas que afectan a todos los objetos, tales como la gravedad, la resistencia, la tensión y fricción, generando una aceleración y desaceleración progresiva.
             .col-5.col-lg-4
               img(src="@/assets/curso/tema1/img6.gif")
       
